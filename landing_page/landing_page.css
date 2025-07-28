@@ -1,0 +1,103 @@
+*{
+    color:  #4B2E2E;
+    text-shadow: 2px 2px 4px rgb(255, 255, 255);
+
+}
+header{
+    width: auto;
+    height: 200px;
+    background-color: burlywood;
+    padding: 9px;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    box-shadow: 4px 4px 10px rgb(170, 170, 170);
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+section{
+        box-shadow: 4px 4px 10px rgb(170, 170, 170);
+
+    font-weight:bolder ;
+    border-radius: 5px;
+    padding: 40px;
+    width: 90%;
+    margin: 80px auto 0px auto;
+    text-align: center;
+    background-color: lightblue;
+}
+td{
+background-color: #41c141;
+padding: 40px;
+border-radius: 5px;
+font-weight: bolder;
+box-shadow: 4px 4px 10px rgb(170, 170, 170);
+
+}
+table{
+    padding: 0px 170px 0px 170px;
+    margin:0px auto 0px auto;
+    background-color: rgb(236, 235, 235);
+}
+.skill_title{
+    margin: 60px 0px;
+    font-size:30px;
+}
+.contact{
+    box-shadow: 4px 4px 10px rgb(170, 170, 170);
+    font-weight:bolder ;
+    border-radius: 5px;
+    padding: 35px;
+    width: 90%;
+    height: 150px;
+    margin: 80px auto 40px auto;
+    text-align: center;
+    background-color: lightblue;
+}
+.contact>h3,section>h3,.resume>h2{
+    font-size: 30px;
+}
+.contact>h3{
+    margin-top: -5px;
+}
+p,td{
+    font-size: 20px;
+}
+.resume{
+   box-shadow: 4px 4px 10px rgb(170, 170, 170);
+    font-weight:bolder ;
+    border-radius: 5px;
+    padding: 35px;
+    width: 90%;
+    height: 150px;
+    margin: 80px auto 40px auto;
+    text-align: center;
+    background-color: lightblue;
+}
+.resume>a{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 3px;
+    background-color:aliceblue;
+    border: 2px solid black;
+    box-shadow: 3px 3px 2px rgb(0, 0, 0);
+    color: burlywood;
+        text-shadow: 2px 2px 4px rgb(255, 255, 255);
+
+}
+footer{
+    margin: 60px 0px 0px 0px;
+    padding: 30px;
+    background-color: rgb(0, 0, 0);
+    height: 40px;
+    width: auto;
+    text-align: center;
+    
+}
+footer>p{
+    color: rgb(248, 248, 248);
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}

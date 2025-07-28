@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <header><h1 align="center">CALCULATOR</h1></header>
+    <form name="form">
+    <div class="calc">
+        <table cellspacing="30px">
+        <tr><td colspan="4"><input type="tel" id="results" class="result" placeholder="Enter a number"></td></tr>
+        <tr><td><input type="button" value="1"  onclick="v1()"></td>
+        <td><input type="button" value="2" onclick="v2()"></td>
+        <td><input type="button" value="3" onclick="v3()"></td>
+        <td><input type="button" value="+" onclick="vadd()"></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="4"  onclick="v4()"></td>
+        <td> <input type="button" value="5"  onclick="v5()"></td>
+        <td><input type="button" value="6"  onclick="v6()"></td>
+        <td><input type="button" value="-" onclick="vsub()"></td>
+    </tr>
+      <tr>
+        <td><input type="button" value="7"  onclick="v7()"></td>
+        <td><input type="button" value="8"  onclick="v8()"></td>
+        <td><input type="button" value="9"  onclick="v9()"></td>
+        <td><input type="button" value="x"  onclick="vmul()"></td>
+      </tr>
+       <tr>
+        <td><input type="button" value="0"  onclick="v0()"></td>
+        <td><input type="button" value="="  onclick="vresult()"></td>
+        <td><input type="button" value="/"  onclick="vdiv()"></td>
+        <td><input type="reset" value="reset" id="reset" ></td>
+       </tr>
+       
+</table>
+    </div>
+    </form>
+    <script src="calculator.js"></script>
+</body>
+</html>
