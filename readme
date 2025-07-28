@@ -1,1 +1,87 @@
-CODSOFT
+# 🚀 CODSOFT Web Development Projects
+
+This repository contains the web development projects I completed as part of the CODSOFT Internship Program.  
+Each project is crafted using HTML, CSS, and JavaScript (for Calculator) to showcase my growing skills in frontend development. 💻
+
+---
+
+## ✅ Projects Included:
+
+### 🧑‍💻 1. Personal Portfolio Website
+
+A clean and responsive personal portfolio website built using **HTML** and **CSS**.  
+It presents my skills, background, and projects in a professional layout.
+
+**Features:**
+- **Header:** Logo and short tagline
+- **About Section:** Profile image and short bio
+- **Skills Section:** List of my technical skills
+- **Projects Section:** Showcased projects with descriptions and screenshots
+- **Resume Section:** Downloadable PDF resume
+- **Contact Section:** Email and phone information
+- **Footer:** Copyright details
+
+👉 A perfect beginner-friendly project to demonstrate personal branding using just HTML & CSS.
+
+---
+
+### 🎯 2. Landing Page Design
+
+This is a visually appealing **Landing Page** project created using **HTML** and **CSS**.
+
+**Highlights:**
+- Organized layout with **sections and columns**
+- Use of **CSS for styling, alignment, padding, and color themes**
+- Fully responsive and user-friendly
+- Encourages creativity and clean design principles
+
+👉 Through this project, I practiced how to structure a real-world landing page and made it stand out aesthetically.
+
+---
+
+### 🧮 3. Basic Calculator
+
+An interactive **Calculator** built using **HTML, CSS, and JavaScript**.
+
+**Functionalities:**
+- Performs basic arithmetic operations: addition, subtraction, multiplication, division
+- User-friendly interface with **CSS Grid** for button alignment
+- Dynamic input handling using **JavaScript event listeners**
+- Real-time result display with clean logic using **if-else conditions**
+
+👉 This project helped me understand DOM manipulation, logic handling, and interactive UI behavior.
+
+---
+
+## 📂 Folder Structure
+
+CODSOFT/
+│
+├── Portfolio/
+│ └── index.html, style.css, images/
+│
+├── LandingPage/
+│ └── index.html, style.css, assets/
+│
+└── Calculator/
+└── index.html, style.css, script.js
+
+
+---
+
+## 📜 License
+
+This project is for learning and demonstration purposes.
+
+---
+
+## 🙋‍♂️ Connect with Me
+
+- 📧 Email: naveenkumar.arch@gmail.com  
+- 📞 Phone: +91 9360931606  
+- 🌐 GitHub: [naveenkumar-arch](https://github.com/naveenkumar-arch)
+
+---
+
+> 💡 *Thanks for checking out my projects! I'm continuously improving my skills and working towards becoming a full-stack developer.*
+
